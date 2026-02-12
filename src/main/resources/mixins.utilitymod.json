@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.project.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "AntiKnockbackMixin",
+    "NoSlowdownMixin",
+    "XRayMixin",
+    "BacktrackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
